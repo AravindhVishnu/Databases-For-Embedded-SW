@@ -17,10 +17,10 @@ User parameters are defined as RW data in a product that can be accessed through
 A user parameter has meta data associated with it such as current value, default value, max value, min value, data type, block, field, 
 step size, unit, application, number of decimals, read only flag, etc. The same base implementation of the runtime database is used 
 for the user parameter database. The difference is that more functionality is added to accomodate the user parameter requirements 
-such as more return error codes, setting default values of all parameters, locking/unlocking the database, etc. When the databse APIs
+such as more return error codes, setting default values of all parameters, locking/unlocking the database, etc. When the database APIs
 are used in a multi-threaded application, it is advised to protect them with a mutex.
 
-An example application is included to provide an example of how tto use the two databases.
+An example application is included to provide an example of how to use the two databases.
 
 Tools:
 
