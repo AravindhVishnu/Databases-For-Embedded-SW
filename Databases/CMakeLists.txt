@@ -21,22 +21,22 @@ target_sources(Databases
                   ${PROJECT_SOURCE_DIR}/Database/RuntimeDatabase.cpp
                   ${PROJECT_SOURCE_DIR}/Database/RuntimeDataMethods.cpp
                   ${PROJECT_SOURCE_DIR}/Database/UserParametersDatabase.cpp
-		              ${PROJECT_SOURCE_DIR}/Database/UserParametersMethods.cpp
-	                ${PROJECT_SOURCE_DIR}/MyExampleClass.cpp
-		              ${PROJECT_SOURCE_DIR}/main.cpp
+		  ${PROJECT_SOURCE_DIR}/Database/UserParametersMethods.cpp
+	          ${PROJECT_SOURCE_DIR}/MyExampleClass.cpp
+		  ${PROJECT_SOURCE_DIR}/main.cpp
                 PUBLIC  
                   ${PROJECT_SOURCE_DIR}/Database/DataValue.h
                   ${PROJECT_SOURCE_DIR}/Database/RuntimeDatabase.h
-		              ${PROJECT_SOURCE_DIR}/Database/RuntimeDataMethods.h
-		              ${PROJECT_SOURCE_DIR}/Database/UserParametersDatabase.h
-		              ${PROJECT_SOURCE_DIR}/Database/UserParametersMethods.h
-		              ${PROJECT_SOURCE_DIR}/Database/RuntimeData.h
-		              ${PROJECT_SOURCE_DIR}/Database/UserParameters.h
-		              ${PROJECT_SOURCE_DIR}/MyExampleClass.h
+		  ${PROJECT_SOURCE_DIR}/Database/RuntimeDataMethods.h
+		  ${PROJECT_SOURCE_DIR}/Database/UserParametersDatabase.h
+		  ${PROJECT_SOURCE_DIR}/Database/UserParametersMethods.h
+		  ${PROJECT_SOURCE_DIR}/Database/RuntimeData.h
+		  ${PROJECT_SOURCE_DIR}/Database/UserParameters.h
+		  ${PROJECT_SOURCE_DIR}/MyExampleClass.h
 )
 
 target_include_directories(Databases
                             PUBLIC
-			                        ${PROJECT_SOURCE_DIR}
+			      ${PROJECT_SOURCE_DIR}
                               ${PROJECT_SOURCE_DIR}/Database
 )
