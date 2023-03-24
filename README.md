@@ -3,7 +3,7 @@ This respository contains two implementation examples of databases for embedded 
 
 Description:
 
-- Runtime database
+- Runtime database:
 Runtime data is defined as RW data that different modules use and exchange during program execution.
 In a data centric SW architecture, it is useful to decrease the coupling between modules, in order to improve
 modularity and maintenace. This can be done by having all modules communicating with each other through a runtime database.
@@ -12,7 +12,7 @@ of a key-value database (each item in the database is accessed thorugh the use o
 accessed through the use of a block and field number which in some cases can be useful (especially when the data needs to be categorized).
 Basic initialize, set, get APIs are provided with suitable return error codes.
 
-- User parameter database
+- User parameter database:
 User parameters are defined as RW data in a product that can be accessed through the HMI, fieldbus, serial console, web browser, etc.
 A user parameter has meta data associated with it such as current value, default value, max value, min value, data type, block, field, 
 step size, unit, application, number of decimals, read only flag, etc. The same base implementation of the runtime database is used 
