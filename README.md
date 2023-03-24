@@ -24,9 +24,6 @@ An example application is included to provide an example of how tto use the two 
 
 Tools:
 
-Development environment: Visual Studio Code with the CMake Tools extension
-Build utility: CMake/Ninja
-Compiler: G++/GCC
-Debugger: GDB
+Development environment: Visual Studio Code with the CMake Tools extension, Build utility: CMake/Ninja, Compiler: G++/GCC, Debugger: GDB
 
 Note: Tested on Linux Mint
