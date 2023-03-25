@@ -20,10 +20,16 @@ for the user parameter database. The difference is that more functionality is ad
 such as more return error codes, setting default values of all parameters, locking/unlocking the database, etc. When the database APIs
 are used in a multi-threaded application, it is advised to protect them with a mutex.
 
-An example application is included to provide an example of how to use the two databases.
+An example application is included to provide info of how to use the two databases.
 
 Tools:
 
-Development environment: Visual Studio Code with the CMake Tools extension, Build utility: CMake/Ninja, Compiler: G++/GCC, Debugger: GDB
+- Development environment: Visual Studio Code with the CMake Tools extension
+
+- Build utility: CMake/Ninja
+
+- Compiler: G++/GCC
+
+- Debugger: GDB
 
 Note: Tested on Linux Mint
