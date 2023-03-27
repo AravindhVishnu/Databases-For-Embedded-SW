@@ -10,6 +10,7 @@ modularity and maintenace. This can be done by having all modules communicating 
 In this way, all modules have the dependency to the database (instead of with each other). This is an implementation example 
 of a key-value database (each item in the database is accessed thorugh the use of an ID/key). But the data can also be 
 accessed through the use of a block and field number which in some cases can be useful (especially when the data needs to be categorized).
+All the basic data types are supported as well as the void pointer which means it is possible to write a pointer to anything in the database.
 This is a static database which means that adding or removing items during program execution is not supported. 
 Basic initialize, set, get APIs are provided with suitable return error codes.
 
