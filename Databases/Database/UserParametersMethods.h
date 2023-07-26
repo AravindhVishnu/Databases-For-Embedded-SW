@@ -6,7 +6,7 @@
 #include <string>
 #include <cassert>
 
-// Implementation of the user parameter data item and relates APIs.
+// Implementation of the user parameter data item and related APIs.
 class UserParametersMethods
 {
 
