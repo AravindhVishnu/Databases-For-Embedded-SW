@@ -6,7 +6,7 @@
 #include <string>
 #include <cassert>
 
-// This class implements the runtime database item and relates APIs.
+// This class implements the runtime database item and related APIs.
 class RuntimeDataMethods
 {
 
