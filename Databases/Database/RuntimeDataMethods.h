@@ -84,7 +84,7 @@ inline RuntimeData::ReturnCode RuntimeDataMethods::initData(const RuntimeData::R
   this->getDataItemPtr(key)->m_block = block;
   this->getDataItemPtr(key)->m_field = field;
 
-  if ((type >= DataValue::Type::DATA_TYPE_SIZE) || (type < static_cast<DataValue::Type>(0)))
+  if ((type >= DataValue::Type::DATA_TYPE_SIZE) || (type <= static_cast<DataValue::Type>(0)))
   {
     assert(0);
     return RuntimeData::WRONG_DATA_TYPE;
