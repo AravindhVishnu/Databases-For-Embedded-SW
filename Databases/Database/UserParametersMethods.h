@@ -155,7 +155,7 @@ inline UserParameters::ReturnCode UserParametersMethods::initData(const UserPara
   this->getDataItemPtr(key)->m_block = block;
   this->getDataItemPtr(key)->m_field = field;
 
-  if ((type >= DataValue::Type::DATA_TYPE_SIZE) || (type < static_cast<DataValue::Type>(0)))
+  if ((type >= DataValue::Type::DATA_TYPE_SIZE) || (type <= static_cast<DataValue::Type>(0)) || (type == DataValue::Type::TYPE_VOID_POINTER))
   {
     assert(0);
     return UserParameters::WRONG_DATA_TYPE;
